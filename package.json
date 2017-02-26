@@ -1,0 +1,30 @@
+{
+  "name": "memrest",
+  "version": "0.1.0",
+  "description": "Simple in-memory data store with a REST-like interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter min --recursive --watch",
+    "test:debug": "npm test -- debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentprimrose/memrest.git"
+  },
+  "keywords": [
+    "REST",
+    "in-memory",
+    "data",
+    "storage"
+  ],
+  "author": "Kent Primrose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kentprimrose/memrest/issues"
+  },
+  "homepage": "https://github.com/kentprimrose/memrest#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
