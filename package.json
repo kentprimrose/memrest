@@ -1,6 +1,6 @@
 {
   "name": "memrest",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Simple in-memory data store with a REST-like interface.",
   "main": "index.js",
   "scripts": {
