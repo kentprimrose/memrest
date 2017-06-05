@@ -1,6 +1,7 @@
+const uuid = require('uuid');
+
 module.exports = () => {
   let storage = {};
-  let nextKey = 1;
 
   return {
     getAll: () => {
@@ -12,7 +13,7 @@ module.exports = () => {
     },
 
     post: (newItem) => {
-      let key = nextKey++;
+      let key = uuid.v4();
       storage[key] = newItem;
       return key;
     },
